@@ -1,0 +1,68 @@
+/********** General Styles **********/
+
+body{
+	background-color: #e0d04d; /* Yellow-4*/
+	font-size: 16px;
+	font-family: Verdana, Tahoma, sans-serif;
+	color: #121212; /* Gray-1*/
+}
+
+/********** General Classes **********/
+
+.bordered {
+	border: 1px solid black;	
+}
+
+.selectionbox {
+	background-color: #f5f5dc; /* beige */
+}
+
+.padding-2p5percent {
+	padding: 2.5%;
+}
+
+.margin-5px {
+	margin: 5px;
+}
+
+/********** navbar **********/
+
+#header-nav{
+	background-color: #cd8348; /* Brown-6*/
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height:20px;
+}
+
+.navbar-brand h1{
+	color: #4a4a4a; /*Gray-2*/
+	font-size: 2rem;
+	padding: 0px;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+
+/********** collapsable-nav & navlist **********/
+
+#collapsable-nav a{
+	font-size: 1.5em;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #804466; /*Purple-4*/
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #D1D1D1; /*Gray 5*/
+}
